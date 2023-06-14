@@ -1,4 +1,4 @@
-package entities;
+package br.com.william.inheritance.entities;
 
 public class BusinessAccount extends Account {
     private Double loanLimit;

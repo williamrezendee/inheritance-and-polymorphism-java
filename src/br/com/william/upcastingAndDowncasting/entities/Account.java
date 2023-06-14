@@ -1,9 +1,9 @@
-package entities;
+package br.com.william.upcastingAndDowncasting.entities;
 
 public class Account {
-    private Integer number;
-    private String holder;
-    private Double balance;
+    private final Integer number;
+    private final String holder;
+    protected Double balance;
 
     public Account(Integer number, String holder, Double balance) {
         this.number = number;

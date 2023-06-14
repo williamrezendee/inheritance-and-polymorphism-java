@@ -1,6 +1,6 @@
-package application;
+package br.com.william.inheritance.application;
 
-import entities.BusinessAccount;
+import br.com.william.inheritance.entities.BusinessAccount;
 
 public class Program {
     public static void main(String[] args) {
